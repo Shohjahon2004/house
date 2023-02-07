@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    
+    
+}
+a{
+    text-decoration: none ;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+}
+header nav{
+    text-align: center;
+    padding: 14px ;
+    margin-top: 50px;
+    
+}
+
+.header-nav-box{
+    display: flex;
+    flex-direction: column;
+    gap: 79px;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    gap: 30px;
+}
+header nav ul a{
+    gap: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #8C8A8A;
+}
+header nav ul a:hover{
+    color: green;
+}
+.header-content{
+    margin-top: 20px;
+}
+.main-about-left{
+    width: 730px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #808080;
+    background: #F0F0F0;
+    padding: 40px  ;
+}
+.main-about-right{
+    width: 350px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #808080;
+    background: #F0F0F0;
+    padding: 40px 24px;
+}
+.main-about-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+.main-about-left h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align:justify;
+    color: #4581B7;
+}
+.main-about-right h3{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: justify;
+    color: #4581B7;
+    margin-bottom: 25px;
+}
+.main-about-left p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #808080;
+    margin-top: 25px ; 
+}
+.main-about-right p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #808080;
+    
+}
+.header-call{
+    display: block;
+    padding: 25px;
+    color: #808080;
+}
+footer {
+    background: #F0F0F0;
+    
+}
+.footer-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #808080;
+    
+    
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+}
+.footer-link{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center; 
+}
